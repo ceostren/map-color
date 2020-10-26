@@ -28,5 +28,7 @@ public class Mapper {
         frame.setSize(400,500);
         frame.setLayout(null);
         frame.setVisible(true);
+
+        new LineEntry();
     }
 }

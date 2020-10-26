@@ -47,6 +47,7 @@ public class LineCreator {
                 larr[lp][2] = x;
                 larr[lp][3] = y;
             }
+            return larr;
         }
         else{
             larr[lp][2] = rand.nextInt(width);
