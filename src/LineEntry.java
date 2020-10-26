@@ -47,6 +47,11 @@ public class LineEntry implements ActionListener {
             res += "\n";
         }
         area.setText(res);
+        LineDraw ld = new LineDraw(lst);
+        JFrame f=new JFrame();
+        f.add(ld);
+        f.setSize(600,600);
+        f.setVisible(true);
 
 
     }
