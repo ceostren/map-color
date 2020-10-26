@@ -14,6 +14,7 @@ public class Mapper {
 
         JButton draw = new JButton("Draw");
         JTextField tf = new JTextField("#####");
+
         tf.setBounds(50,50,150,20);
         draw.setBounds(130,400,100,40);
         draw.addActionListener(new ActionListener() {
