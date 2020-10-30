@@ -15,11 +15,11 @@ public class LineEntry implements ActionListener {
         lines = new JLabel("Lines:");
         lines.setBounds(50,25,75, 30);
         lEntry = new JTextField();
-        lEntry.setBounds(130, 25,75,30);
+        lEntry.setBounds(100, 25,75,30);
         curves = new JLabel("Curves:");
-        curves.setBounds(170,25,75, 30);
+        curves.setBounds(200,25,75, 30);
         cEntry = new JTextField();
-        cEntry.setBounds(200, 25,75,30);
+        cEntry.setBounds(250, 25,75,30);
         area = new JTextArea();
         area.setBounds(20,75,250,200);
         lineCreator = new LineCreator(500, 500);
